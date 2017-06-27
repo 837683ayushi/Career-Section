@@ -1,0 +1,417 @@
+/*
+
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
+
+*/
+
+
+/* Body 
+------------------------------------- */
+body {
+    background-image:url("../images/bg1.jpg") ;   
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+
+
+/*---------------------------------------
+    Typorgraphy              
+-----------------------------------------*/
+
+h1,h2,h3,h4 {
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: bold;
+  color:black;
+  padding-left: 90px;
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  font-family:sans-serif;
+  padding-bottom: 8px;
+}
+
+h2 {
+  color: #8a8a5c;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+p {
+  color: #888;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 34px;
+}
+
+.btn {
+  border:none;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  background-color: #336699;
+  color: white;
+}
+
+.btn:focus {
+  background: #999999;
+  border-color: transparent;
+  
+}
+.btn:hover{
+  color: black;
+}
+
+.btn-success {
+  background: #999999;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 14px 32px;
+  margin-top: 26px;
+}
+.btn-block{
+  background-color: #262626;
+}
+.btn-block:hover{
+  color: white;
+}
+.btn-danger{
+  background-color: #262626;
+}
+
+a {
+  color: #8a8a5c;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+a:hover, a:active, a:focus {
+  color: #8a8a5c;
+  outline: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+/*---------------------------------------
+    All Section style              
+-----------------------------------------*/
+
+.section-title {
+  padding-bottom: 62px;
+}
+
+#career .section-title {
+  padding-top: 65px;
+}
+
+#career .section-title h1 {
+  font-color:#ffffff;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#career
+{
+   padding-bottom:3%;
+   width:100%;
+  position: relative;
+}
+
+
+.overlay {
+  background: #dfe6ec;
+  opacity: .2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/*---------------------------------------
+    Pre Loader Style              
+-----------------------------------------*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.sk-spinner-pulse {
+  width: 60px;
+  height: 60px;
+  background-color: #e44c65;
+  border-radius: 100%;
+  margin: 40px auto;
+  -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+
+@-webkit-keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+@keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+
+
+
+
+/*---------------------------------------
+    career Section              
+-----------------------------------------*/
+
+#career {
+  background-image:url("../images/bg1.jpg");
+}
+
+#career .item {
+  width: 100%;
+  display: block;
+}
+
+#career .career-thumb {
+  background: #ffffff;
+  border-radius: 4px;
+  padding-top:20px;
+  padding-bottom:40px;
+  padding-left:40px;
+  position:absolute;
+  padding-right:200px;
+}
+
+
+#career .team-thumb {
+  width: 100%;
+  height: 400px;
+  margin: 32px 0;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#career .team-thumb .image-holder {
+  position: relative;
+  top: 40px;
+  display: inline-block;
+  margin-bottom: 40px;
+  padding: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#career .team-thumb .heading {
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  padding-bottom: 10px;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#career .team-thumb:hover {
+  background:#ebebe0;
+}
+
+#career .team-thumb:hover .image-holder {
+  top: -40px;
+  margin-bottom: 0px;
+}
+
+#career .team-thumb:hover .heading {
+  top: -10px;
+
+}
+
+#career .team-thumb .description {
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+#career .team-thumb:hover .description {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+#career .team-thumb:hover p.description {
+  color: #8a8a5c;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------
+    Social icons style              
+-----------------------------------------*/
+
+.social-icon {
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icon li a {
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  margin: 10px 10px 42px 10px;
+  padding: 0px;
+}
+
+.social-icon li a:hover {
+  background: #ffffff;
+  color: #e44c65;
+}
+
+
+
+
+
+/*---------------------------------------
+   Responsive Mobile         
+-----------------------------------------*/
+
+@media (max-width: 980px) {
+/* 
+  #home, .overlay {
+    height: 50vh;
+  }
+*/
+  #career .team-thumb {
+    margin-top: 32px;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  #home, .overlay {
+    height: 100vh;
+  }
+
+  #career .career-thumb {
+    padding: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80%;
+  }
+
+  #career .col-md-3 img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+}
+
+
+
+@media (max-width: 650px) {
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #career,
+   {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+}
+
+
+
+
